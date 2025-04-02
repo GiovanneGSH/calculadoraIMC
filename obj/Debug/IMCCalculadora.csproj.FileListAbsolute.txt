@@ -1,0 +1,10 @@
+C:\Users\GS\source\repos\GiovanneGSH\IMCCalculadora\obj\Debug\IMCCalculadora.csproj.AssemblyReference.cache
+C:\Users\GS\source\repos\GiovanneGSH\IMCCalculadora\obj\Debug\IMCCalculadora.frmIMCCalculadora.resources
+C:\Users\GS\source\repos\GiovanneGSH\IMCCalculadora\obj\Debug\IMCCalculadora.Properties.Resources.resources
+C:\Users\GS\source\repos\GiovanneGSH\IMCCalculadora\obj\Debug\IMCCalculadora.csproj.GenerateResource.cache
+C:\Users\GS\source\repos\GiovanneGSH\IMCCalculadora\obj\Debug\IMCCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\GS\source\repos\GiovanneGSH\IMCCalculadora\bin\Debug\IMCCalculadora.exe.config
+C:\Users\GS\source\repos\GiovanneGSH\IMCCalculadora\bin\Debug\IMCCalculadora.exe
+C:\Users\GS\source\repos\GiovanneGSH\IMCCalculadora\bin\Debug\IMCCalculadora.pdb
+C:\Users\GS\source\repos\GiovanneGSH\IMCCalculadora\obj\Debug\IMCCalculadora.exe
+C:\Users\GS\source\repos\GiovanneGSH\IMCCalculadora\obj\Debug\IMCCalculadora.pdb
