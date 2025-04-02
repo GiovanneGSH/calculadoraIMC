@@ -51,13 +51,13 @@
             this.rdbSobrepeso = new System.Windows.Forms.RadioButton();
             this.rdbPesoNormal = new System.Windows.Forms.RadioButton();
             this.rdbAbaixoDoPeso = new System.Windows.Forms.RadioButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pcbResultado = new System.Windows.Forms.PictureBox();
             this.lblResultado = new System.Windows.Forms.Label();
             this.gpbSexo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.gpbResultado.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbResultado)).BeginInit();
             this.SuspendLayout();
             // 
             // lblPeso
@@ -145,6 +145,7 @@
             // 
             // btnSair
             // 
+            this.btnSair.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnSair.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.Image")));
             this.btnSair.Location = new System.Drawing.Point(358, 505);
             this.btnSair.Name = "btnSair";
@@ -218,7 +219,7 @@
             this.gpbResultado.Controls.Add(this.rdbSobrepeso);
             this.gpbResultado.Controls.Add(this.rdbPesoNormal);
             this.gpbResultado.Controls.Add(this.rdbAbaixoDoPeso);
-            this.gpbResultado.Controls.Add(this.pictureBox1);
+            this.gpbResultado.Controls.Add(this.pcbResultado);
             this.gpbResultado.Enabled = false;
             this.gpbResultado.Location = new System.Drawing.Point(91, 251);
             this.gpbResultado.Name = "gpbResultado";
@@ -293,15 +294,15 @@
             this.rdbAbaixoDoPeso.Text = "Abaixo do Peso";
             this.rdbAbaixoDoPeso.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
+            // pcbResultado
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(13, 42);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(61, 174);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
+            this.pcbResultado.Image = ((System.Drawing.Image)(resources.GetObject("pcbResultado.Image")));
+            this.pcbResultado.Location = new System.Drawing.Point(13, 42);
+            this.pcbResultado.Name = "pcbResultado";
+            this.pcbResultado.Size = new System.Drawing.Size(61, 174);
+            this.pcbResultado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcbResultado.TabIndex = 6;
+            this.pcbResultado.TabStop = false;
             // 
             // lblResultado
             // 
@@ -344,7 +345,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.gpbResultado.ResumeLayout(false);
             this.gpbResultado.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbResultado)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -373,7 +374,7 @@
         private System.Windows.Forms.RadioButton rdbPesoNormal;
         private System.Windows.Forms.RadioButton rdbAbaixoDoPeso;
         private System.Windows.Forms.Label lblResultado;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pcbResultado;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
     }
